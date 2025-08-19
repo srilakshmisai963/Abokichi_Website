@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/abokichi_logo.png" />ABOKICHI</a>
+      <nav class="nav">
+        <a href="products.html">Shop</a>
+        <a href="#">Our story</a>
+        <a href="#">Recipes</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="actions">
+        <a class="icon-btn" href="#"><span>Search</span></a>
+        <a class="icon-btn" href="#"><span>Wishlist</span></a>
+        <a class="icon-btn cart" href="products.html">
+          <span>Cart</span>
+          <span class="cart-count" data-cart-count>0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+
+    <nav class="breadcrumbs"><a href="index.html">Home</a> ▸ <a href="products.html">Products</a> ▸ <span
+        id="crumbName">Item</span></nav>
+    <section class="detail" id="detail"></section>
+
+  </div>
+  <footer class="footer">
+    <div class="container small">Buy Exciting products</div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/product-detail.js"></script>
+</body>
+
+</html>
